@@ -1,0 +1,33 @@
+Artikelname	Kategorie	Verkaufspreis inkl. MWST
+Apfelsaft	30	1.50
+Appenzeller Biberli	11	1.10
+Becher	100	0.20
+Berliner	15	1.30
+Chips mit Paprika	11	1.50
+Chips mit Salz	11	1.50
+Cola	30	1.50
+Cola light	30	1.50
+Eukalyptus	20	2.10
+Fanta	30	1.50
+Feuerzeug	100	3.50
+Frisk	20	1.80
+Gipfeli	15	1.00
+Gipfeli Vollkorn	15	1.00
+Ice Tea	30	1.50
+Kaugummi V6	20	1.70
+Kokos-Makroneli	15	1.50
+Laugenbretzel	15	1.20
+Laugenbretzel mit Butter	15	1.70
+Mars	11	1.20
+Mandelgipfel	15	1.80
+Mentos	20	1.50
+Mineral	30	1.20
+Minor gross	11	1.70
+Minor klein	11	1.10
+Nussgipfel	15	1.70
+Nussini	11	1.30
+Papiernastuecher	100	2.50
+Red Bull	30	2.20
+Semmeli	15	0.90
+Snickers	11	1.20
+Sprite	30	1.50
