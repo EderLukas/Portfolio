@@ -1,0 +1,102 @@
+<!Doctype html>
+<html lang="de_CH">
+	<head>
+		<meta charset="utf-8">
+		<title>Anmeldeformular Musikschule</title>
+	</head>
+	<body>
+		<h1>Anmeldeformular Musikschule</h1>
+		
+		<form method="post" action="anmeldung.php" accept-charset="utf-8">
+			<h2>Schüler/in</h2>
+				<p><label class="personaldaten"><input type="text" name="sName" size="31" maxlength="30" required autofocus placeholder="last name"> Name</label><p>
+				<p><label class="personaldaten"><input type="text" name="sVorname" size="31" maxlength="30" required placeholder="first name"> Vorname</label><p>
+				<p><label class="personaldaten"><input type="date" name="Geburtsdatum" size="31" maxlength="30" required placeholder="date of birth"> Geburtsdatum</label><p>
+				<fieldset class="Geschlecht">
+				<legend>Geschlecht</legend>
+					<select name="Geschlecht" required>
+						<option value="" selected> Bitte wählen...
+						<option value="männlich"> männlich
+						<option value="weiblich"> weiblich
+					</select>
+				</fieldset>
+			<h2>Eltern / Erziehungsberechtigte</h2>	
+				<p><label class="personaldaten"><input type="text" name="eName" size="31" maxlength="30" required placeholder="last name"> Name</label><p>
+				<p><label class="personaldaten"><input type="text" name="eVorname" size="31" maxlength="30" required placeholder="first name"> Vorname</label><p>
+				<p><label class="personaldaten"><input type="text" name="Strasse" size="31" maxlength="30" required placeholder="street"> Strasse</label><p>
+				<p><label class="personaldaten"><input type="number" name="streetnr" size="31" maxlength="30" required placeholder="street nr."> Strassennummer</label><p>
+				<p><label class="personaldaten"><input type="number" name="PLZ" size="31" maxlength="30" required placeholder="postal code"> PLZ</label><p>
+				<p><label class="personaldaten"><input type="text" name="Ort" size="31" maxlength="30" required placeholder="town"> Ort</label><p>
+			
+				<p><label class="personaldaten"><input type="tel" name="Telefon" size="31" maxlength="30" required placeholder="phone"> Telefon</label><p>
+				<p><label class="personaldaten"><input type="tel" name="Natel" size="31" maxlength="30" required placeholder="mobile"> Natel</label><p>
+				<p><label class="personaldaten"><input type="email" name="E-Mail" size="31" maxlength="30" required placeholder="e-mail"> E-Mail</label><p>
+
+			<fieldset class="Schulstufe">
+			<legend>Schulstufe</legend>
+				<select name="Schulstufe" required>
+					<option value="" selected> Bitte wählen...
+					<option value="1_Kindergarten"> 1. Kindergarten
+					<option value="2_Kindergarten"> 2. Kindergarten
+					<option value="Primarschule"> Primarschule
+					<option value="Tagesschule"> Tagesschule
+					<option value="Realschule"> Realschule
+					<option value="Sekundarschule"> Sekundarschule
+					<option value="Bezirksschule"> Bezirksschule
+					<option value="Andere"> Andere
+				</select>
+			</fieldset>
+			
+			<p><label class="Schulstufe"><input type="text" name="andereStufe" size="21" maxlength="20" placeholder="other scholar level"> Andere</label></p>
+			<p><label class="Schulhaus"><input type="text" name="Schulhaus" size="31" maxlength="30" required placeholder="school"> Schulhaus</label><p>
+
+			<h2>Instrument / Fach</h2>
+			<textarea name="Instrument/Fach" rows="2" cols="50" required placeholder="Bitte von Vorlage komplett übernehmen."></textarea>
+
+			<h2>Unterrichtsform</h2>
+			<h3>Kindergarten, Primarschule 1-5, Zweitinstrument<br> Oberstufe, auszubildende bis 20 Jahre</h3>
+				<fieldset class="kleinEinzelU">
+				<legend>Einzelunterricht</legend>
+					<select name="klein_EinzelU" required>
+						<option value="-" selected> Bitte wählen...
+						<option value="25_Min_597.-"> 25.0 Minuten: 597.-
+						<option value="37.5_Min_890.-"> 37.5 Minuten: 890.-
+						<option value="50_Min_1188.-"> 50.0 Minuten: 1188.-
+						<option value="40_Min/14tägl_476.-"> 40.0 Minuten 14-tägl.(Schulabgänger, Jugendl.): 476.- 
+					</select>
+				</fieldset>
+					
+				<fieldset class="kleinGruppenU">
+				<legend>Gruppenunterricht</legend>
+					<select name="klein_GruppenU" required>
+						<option value="-" selected> Bitte wählen...
+						<option value="Blockflöte_396.-"> Blockflöte: 396.-
+						<option value="Djembé_315.-"> Djembé (afrikanische Trommel): 315.-
+						<option value="Popchor_75.-"> Popchor (Schulabgänger, Jugendliche): 75.-
+					</select>
+				</fieldset>
+			<h2>Primar 6 und Oberstufe mit Kantonsbeitrag</h2>
+				<fieldset class="grossEinzelU">
+				<legend>Einzelunterricht</legend>
+					<select name="gross_EinzelU" required>
+						<option value="-" selected> Bitte wählen...
+						<option value="25_Min_332.-"> 5.0 Minuten: 332.-
+						<option value="37.5_Min_628.-"> 37.5 Minuten: 628.- 
+						<option value="50_Min_930.-"> 50.0 Minuten: 930.-
+					</select>
+				</fieldset>
+					
+				<fieldset class="grossGruppenU">
+				<legend>Gruppenunterricht</legend>
+					<select name="gross_GruppenU" required>
+						<option value="-" selected> Bitte wählen...
+						<option value="Blockflöte"> Blockflöte: 297.-
+						<option value="Djembé"> Djembé (afrikanische Trommel): 315.-
+					</select>
+				</fieldset>
+			<h2>Allgemeine Musikfächer und Ensembles</h2>
+			<textarea name="Allg_Fächer/Ensembles" rows="2" cols="50" placeholder="Bitte von Vorlage komplett übernehmen."></textarea>
+			<p><label><input type="submit" name="senden" value="Senden"></label></p>
+		</form>
+	</body>
+</html>

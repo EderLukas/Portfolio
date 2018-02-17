@@ -1,0 +1,74 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		<title>Responive Web-Design</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<section id="menubar">
+			<ul>
+				<li><a class="menubutton" href="#menu"><img src="images/menu.png" 
+				alt="Menüschaltfläche" /></a></li>
+			</ul>
+			<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		</section>
+		<header>
+			<h1>Responive Web-Design</h1>
+			
+		</header>
+		<nav>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$('.menubutton').click(function() {
+						$('nav').slideToggle('slow');
+					});
+				});
+			</script>
+			<ul>
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="index.html">Tutorials</a></li>
+				<li><a href="index.html">Pictures</a></li>
+				<li><a href="index.html">Contact</a></li>
+				<li><a href="index.html">About</a></li>
+			</ul>
+		</nav>
+		<section id="main">
+			<article>
+				<h2>Das hier ist ein Artikel</h2>
+				<img src="images/artikelbild.jpg" />
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+			</article>
+			<aside>
+				<section>
+					<h2>Weitere Artikel</h2>
+					<ul>
+						<li>Noch ein spanneder Artikel</li>
+						<li>Diesen müsse Sie auch lesen</li>
+						<li>Und diesen Artikel</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Ein Textfeld</h2>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
+				</section>
+				<section>
+					<h2>Kategorien</h2>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>PHP</li>
+						<li>jQuery</li>
+					</ul>
+				</section>
+			</aside>
+		</section>
+		<footer>
+			<ul>
+				<li>&copy; 2015 Hans Muster</li>
+				<li><a href="index.html">Kontakt</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+*{
+	font-family: Georgia;
+}
+td.titel{
+	text-align: left;
+}
+td.zahlen{
+	text-align: right;
+}
+table.liste{
+	background: #ccf;
+	border-collapse: collapse;
+}
+/*Tabellenlinien*/
+table, th, td, td{
+	border: 1px solid black;
+}
+
+
+

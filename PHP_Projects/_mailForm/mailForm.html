@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="de-CH">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="formular.css" type="text/css">
+	<title>Bestellformular</title>
+</head>
+<body>
+	<h1>Bestellung von Informationsmaterial</h1>
+	<form method="post" action="formsend.php" accept-charset="utf-8">
+		<p><label><input type="text" name="Name" size="41" maxlenght="40" autofocus> Name</label></p>
+		<p><label><input type="text" name="Vorname" size="41" maxlenght="40"> Vorname</label></p>
+		<p><label><input type="text" name="email" size="41" maxlenght="40"> e-Mail</label></p>
+
+		<fieldset>
+		<legend>Ich bestelle Informationen zu</legend>
+		<label>
+			<input type="checkbox" name="infos[]" value="PHP">
+			PHP<br>
+		</label>
+		<label>
+		
+			<input type="checkbox" name="infos[]" value="JavaScript">
+			JavaScript<br>
+		</label>
+		<label>
+			<input type="checkbox" name="infos[]" value="CSS">
+			CSS<br>
+		</label>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Ich abonniere den Newsletter</legend>
+		<label>
+			<input type="radio" name="newsletter" value="ja"> ja<br>
+		</label>
+				<label>
+			<input type="radio" name="newsletter" value="nein"> nein
+		</label>
+		</fieldset>
+		
+		<p><label><input type="submit" name="senden" value="Senden"></label></p>
+	</form>
+</body>
+</html>

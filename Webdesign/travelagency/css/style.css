@@ -1,0 +1,138 @@
+/*
+	Author: 		Lukas Eder
+	Date:			24.11.2017
+	Description:	Reise-Web
+	Version:		1.0.0
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #dbd0bb;
+	font-size: 16px;
+}
+
+/*Container*/
+#hauptcontainer{
+	width: 960px;
+	height: auto;
+	overflow: auto;
+	margin: 5px auto;
+}
+
+#titelcontainer{
+	width: 958px;
+	height: 248px;
+	background-color: #cab898;
+	border: 1px solid #000;
+}
+#titelcontainer img{
+	border-bottom: 1px solid #000;
+}
+
+#hauptnavigation{
+	width: 960px;
+	height: 35px;
+	margin-top: 5px;
+}
+
+#unternavigation{
+	width: 190px;
+	height: 55px;
+	background-color: #cab898;
+	margin-top: 5px;
+	float: left;
+}
+
+#inhalt{
+	width: 743px;
+	height: 400px;
+	background-color: #fff;
+	float: right;
+	margin-top: 5px;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#fusszeile{
+	clear: both;
+	background-color: #d9c6a3;
+		height: 25px;
+	width: 958xp;
+	overflow: auto;
+	border 1px solid #000;
+
+}
+/*Texte*/
+#titelcontainer h1{
+	font-size: 1.5em;
+	color: #fff;
+	margin: 20px;
+}
+
+#inhalt h2{
+	font-size: 1.3em;
+	color: #000;
+}
+
+#inhalt p{
+	font-size: 1em;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#fusszeile p{
+		margin-left: 5px;
+		margin-top: 4px;
+		font-size: 0.8em;
+	}
+	
+/*Hauptnavigation*/
+#hauptnavigation ul{
+	list-style-type: none;
+}
+
+#hauptnavigation li{
+	float: left;
+}
+#hauptnavigation a{
+	display: block;
+	width: 118px;
+	background-color: #cab898;
+	text-align: center;
+	border: 1px solid #000;
+	font-size: 1em;
+	color: #5c5a50;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#hauptnavigation a:hover, #hauptnavigation a.aktiv{
+	background-color: #ac843a;
+	color: #fff;
+}
+/*Unternavigation*/
+#unternavigation ul{
+	list-style-type: none;	
+}
+
+#unternavigation a{
+	background-color: #cab898;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	border: 1px solid #000;
+	color: #5c5a50;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#unternavigation a:hover, #unternavigation a.aktiv{
+	background-color: #ac843a;
+	color: #fff;
+}
